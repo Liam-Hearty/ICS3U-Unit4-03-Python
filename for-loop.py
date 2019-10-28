@@ -18,7 +18,7 @@ def main():
         print("")
 
         # process & output
-        while loop_counter < chosen_number:
+        for loop_counter in range(chosen_number):
             loop_counter += 1
             print("{0}^2={1}".format(adding_number, answer))
             adding_number += 1
